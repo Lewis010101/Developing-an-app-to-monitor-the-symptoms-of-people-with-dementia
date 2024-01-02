@@ -1,0 +1,76 @@
+body {
+    background: #8393F7;
+    margin: 15px;
+    margin-top: 15px;
+}
+
+.carer-signup,
+.carer-signup * {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+}
+
+.carer-signup {
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.carer-signup-content {
+    padding: 30px;
+    background: #eeeeee;
+}
+
+.carer-signup-header {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333333;
+}
+
+.carer-signup-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+}
+
+.carer-signup-input:focus {
+    border-color: #8393F7;
+}
+
+.carer-signup-input::placeholder {
+    color: #aaaaaa;
+}
+
+.carer-signup-button {
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    background: #8393F7;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carer-signup-button:active {
+    background: #8393F7;
+}
+
+.carer-signup-links {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.carer-signup-links {
+    font-size: 0.9em;
+    color: #8393F7;
+    text-decoration: none;
+}

@@ -1,0 +1,42 @@
+body {
+    background: #8393F7;
+    margin: 15px;
+    margin-top: 15px;
+}
+
+.profile,
+.profile * {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+}
+
+h1 {
+    text-align: center;
+}
+
+.profile {
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.profile-content {
+    padding: 30px;
+    padding-top: 5px;
+    background: #eeeeee;
+}
+
+.profile-topnav {
+    background-color: #8393F7;
+    overflow: hidden;
+}
+.profile-topnav a {
+    float: left;
+    color: #f2f2f2;
+    background-color: #8393F7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}

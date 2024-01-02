@@ -1,0 +1,123 @@
+body {
+    background: #8393F7;
+    margin: 15px;
+    margin-top: 15px;
+}
+
+.add,
+.add * {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+}
+
+.add {
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.add-content {
+    padding: 30px;
+    padding-top: 5px;
+    background: #eeeeee;
+}
+.add-header {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #333333;
+}
+
+.add-topnav {
+    background-color: #8393F7;
+    overflow: hidden;
+}
+.add-topnav a {
+    float: left;
+    color: #f2f2f2;
+    background-color: #8393F7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.add-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+}
+
+
+.add-button {
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    background: #8393F7;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-button:active {
+    background: #8393F7;
+}
+.multiselect {
+    width: 200px;
+}
+
+.selectBox {
+    position: relative;
+}
+
+.selectBox select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+}
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#symptom-checkboxes {
+    display: none;
+    border: 1px #dddddd solid;
+}
+
+#symptom-checkboxes label {
+    display: block;
+}
+
+#symptom-checkboxes label:hover {
+    background-color: #8393F7;
+}
+
+#medication-checkboxes {
+    display: none;
+    border: 1px #dddddd solid;
+}
+
+#medication-checkboxes label {
+    display: block;
+}
+
+#medication-checkboxes label:hover {
+    background-color: #8393F7;
+}
